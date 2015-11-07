@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23EA84721BEE998100786911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84711BEE998100786911 /* AppDelegate.swift */; };
+		23EA84741BEE998100786911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84731BEE998100786911 /* ViewController.swift */; };
+		23EA84771BEE998100786911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EA84751BEE998100786911 /* Main.storyboard */; };
+		23EA847A1BEE998100786911 /* EMUHackathonAPIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84781BEE998100786911 /* EMUHackathonAPIApp.xcdatamodeld */; };
+		23EA847C1BEE998100786911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EA847B1BEE998100786911 /* Assets.xcassets */; };
+		23EA847F1BEE998100786911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EA847D1BEE998100786911 /* LaunchScreen.storyboard */; };
+		23EA848A1BEE998100786911 /* EMUHackathonAPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84891BEE998100786911 /* EMUHackathonAPIAppTests.swift */; };
+		23EA84951BEE998100786911 /* EMUHackathonAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23EA84861BEE998100786911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EA84661BEE998100786911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EA846D1BEE998100786911;
+			remoteInfo = EMUHackathonAPIApp;
+		};
+		23EA84911BEE998100786911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23EA84661BEE998100786911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23EA846D1BEE998100786911;
+			remoteInfo = EMUHackathonAPIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23EA846E1BEE998100786911 /* EMUHackathonAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMUHackathonAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EA84711BEE998100786911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23EA84731BEE998100786911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23EA84761BEE998100786911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23EA84791BEE998100786911 /* EMUHackathonAPIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMUHackathonAPIApp.xcdatamodel; sourceTree = "<group>"; };
+		23EA847B1BEE998100786911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23EA847E1BEE998100786911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23EA84801BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EA84851BEE998100786911 /* EMUHackathonAPIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMUHackathonAPIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EA84891BEE998100786911 /* EMUHackathonAPIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMUHackathonAPIAppTests.swift; sourceTree = "<group>"; };
+		23EA848B1BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EA84901BEE998100786911 /* EMUHackathonAPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMUHackathonAPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMUHackathonAPIAppUITests.swift; sourceTree = "<group>"; };
+		23EA84961BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EA846B1BEE998100786911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA84821BEE998100786911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA848D1BEE998100786911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23EA84651BEE998100786911 = {
+			isa = PBXGroup;
+			children = (
+				23EA84701BEE998100786911 /* EMUHackathonAPIApp */,
+				23EA84881BEE998100786911 /* EMUHackathonAPIAppTests */,
+				23EA84931BEE998100786911 /* EMUHackathonAPIAppUITests */,
+				23EA846F1BEE998100786911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23EA846F1BEE998100786911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EA846E1BEE998100786911 /* EMUHackathonAPIApp.app */,
+				23EA84851BEE998100786911 /* EMUHackathonAPIAppTests.xctest */,
+				23EA84901BEE998100786911 /* EMUHackathonAPIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23EA84701BEE998100786911 /* EMUHackathonAPIApp */ = {
+			isa = PBXGroup;
+			children = (
+				23EA84711BEE998100786911 /* AppDelegate.swift */,
+				23EA84731BEE998100786911 /* ViewController.swift */,
+				23EA84751BEE998100786911 /* Main.storyboard */,
+				23EA847B1BEE998100786911 /* Assets.xcassets */,
+				23EA847D1BEE998100786911 /* LaunchScreen.storyboard */,
+				23EA84801BEE998100786911 /* Info.plist */,
+				23EA84781BEE998100786911 /* EMUHackathonAPIApp.xcdatamodeld */,
+			);
+			path = EMUHackathonAPIApp;
+			sourceTree = "<group>";
+		};
+		23EA84881BEE998100786911 /* EMUHackathonAPIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				23EA84891BEE998100786911 /* EMUHackathonAPIAppTests.swift */,
+				23EA848B1BEE998100786911 /* Info.plist */,
+			);
+			path = EMUHackathonAPIAppTests;
+			sourceTree = "<group>";
+		};
+		23EA84931BEE998100786911 /* EMUHackathonAPIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */,
+				23EA84961BEE998100786911 /* Info.plist */,
+			);
+			path = EMUHackathonAPIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23EA846D1BEE998100786911 /* EMUHackathonAPIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EA84991BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIApp" */;
+			buildPhases = (
+				23EA846A1BEE998100786911 /* Sources */,
+				23EA846B1BEE998100786911 /* Frameworks */,
+				23EA846C1BEE998100786911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMUHackathonAPIApp;
+			productName = EMUHackathonAPIApp;
+			productReference = 23EA846E1BEE998100786911 /* EMUHackathonAPIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23EA84841BEE998100786911 /* EMUHackathonAPIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EA849C1BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIAppTests" */;
+			buildPhases = (
+				23EA84811BEE998100786911 /* Sources */,
+				23EA84821BEE998100786911 /* Frameworks */,
+				23EA84831BEE998100786911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EA84871BEE998100786911 /* PBXTargetDependency */,
+			);
+			name = EMUHackathonAPIAppTests;
+			productName = EMUHackathonAPIAppTests;
+			productReference = 23EA84851BEE998100786911 /* EMUHackathonAPIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23EA848F1BEE998100786911 /* EMUHackathonAPIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EA849F1BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIAppUITests" */;
+			buildPhases = (
+				23EA848C1BEE998100786911 /* Sources */,
+				23EA848D1BEE998100786911 /* Frameworks */,
+				23EA848E1BEE998100786911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EA84921BEE998100786911 /* PBXTargetDependency */,
+			);
+			name = EMUHackathonAPIAppUITests;
+			productName = EMUHackathonAPIAppUITests;
+			productReference = 23EA84901BEE998100786911 /* EMUHackathonAPIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23EA84661BEE998100786911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hackathon Group 4";
+				TargetAttributes = {
+					23EA846D1BEE998100786911 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2N63JZ97DZ;
+					};
+					23EA84841BEE998100786911 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2N63JZ97DZ;
+						TestTargetID = 23EA846D1BEE998100786911;
+					};
+					23EA848F1BEE998100786911 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2N63JZ97DZ;
+						TestTargetID = 23EA846D1BEE998100786911;
+					};
+				};
+			};
+			buildConfigurationList = 23EA84691BEE998100786911 /* Build configuration list for PBXProject "EMUHackathonAPIApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23EA84651BEE998100786911;
+			productRefGroup = 23EA846F1BEE998100786911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23EA846D1BEE998100786911 /* EMUHackathonAPIApp */,
+				23EA84841BEE998100786911 /* EMUHackathonAPIAppTests */,
+				23EA848F1BEE998100786911 /* EMUHackathonAPIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23EA846C1BEE998100786911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EA847F1BEE998100786911 /* LaunchScreen.storyboard in Resources */,
+				23EA847C1BEE998100786911 /* Assets.xcassets in Resources */,
+				23EA84771BEE998100786911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA84831BEE998100786911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA848E1BEE998100786911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EA846A1BEE998100786911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EA84741BEE998100786911 /* ViewController.swift in Sources */,
+				23EA84721BEE998100786911 /* AppDelegate.swift in Sources */,
+				23EA847A1BEE998100786911 /* EMUHackathonAPIApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA84811BEE998100786911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EA848A1BEE998100786911 /* EMUHackathonAPIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23EA848C1BEE998100786911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23EA84951BEE998100786911 /* EMUHackathonAPIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23EA84871BEE998100786911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EA846D1BEE998100786911 /* EMUHackathonAPIApp */;
+			targetProxy = 23EA84861BEE998100786911 /* PBXContainerItemProxy */;
+		};
+		23EA84921BEE998100786911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23EA846D1BEE998100786911 /* EMUHackathonAPIApp */;
+			targetProxy = 23EA84911BEE998100786911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23EA84751BEE998100786911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23EA84761BEE998100786911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23EA847D1BEE998100786911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23EA847E1BEE998100786911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23EA84971BEE998100786911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23EA84981BEE998100786911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23EA849A1BEE998100786911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMUHackathonAPIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23EA849B1BEE998100786911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMUHackathonAPIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23EA849D1BEE998100786911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMUHackathonAPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMUHackathonAPIApp.app/EMUHackathonAPIApp";
+			};
+			name = Debug;
+		};
+		23EA849E1BEE998100786911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EMUHackathonAPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMUHackathonAPIApp.app/EMUHackathonAPIApp";
+			};
+			name = Release;
+		};
+		23EA84A01BEE998100786911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMUHackathonAPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMUHackathonAPIApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23EA84A11BEE998100786911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EMUHackathonAPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.EMUHackathonAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EMUHackathonAPIApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23EA84691BEE998100786911 /* Build configuration list for PBXProject "EMUHackathonAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EA84971BEE998100786911 /* Debug */,
+				23EA84981BEE998100786911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23EA84991BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EA849A1BEE998100786911 /* Debug */,
+				23EA849B1BEE998100786911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23EA849C1BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EA849D1BEE998100786911 /* Debug */,
+				23EA849E1BEE998100786911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23EA849F1BEE998100786911 /* Build configuration list for PBXNativeTarget "EMUHackathonAPIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EA84A01BEE998100786911 /* Debug */,
+				23EA84A11BEE998100786911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23EA84781BEE998100786911 /* EMUHackathonAPIApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23EA84791BEE998100786911 /* EMUHackathonAPIApp.xcdatamodel */,
+			);
+			currentVersion = 23EA84791BEE998100786911 /* EMUHackathonAPIApp.xcdatamodel */;
+			path = EMUHackathonAPIApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 23EA84661BEE998100786911 /* Project object */;
+}
