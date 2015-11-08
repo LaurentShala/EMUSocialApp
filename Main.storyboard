@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lv8-Ei-OGr">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="aqI-wY-H6M">
+            <objects>
+                <viewController id="lv8-Ei-OGr" customClass="ViewController" customModule="EMUHackathonAPIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Am4-RN-VM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="zhD-IF-RIJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2LO-SI-Mvn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="OHo-CG-uC6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="laurentshala@icloud.com" borderStyle="line" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IDI-eq-L8m">
+                                <rect key="frame" x="17" y="498" width="340" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="bob" borderStyle="line" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="yT9-ah-GHB">
+                                <rect key="frame" x="17" y="544" width="340" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nja-gE-2dM">
+                                <rect key="frame" x="236" y="622" width="55" height="30"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" red="0.27843137254901962" green="0.40784313725490196" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t80-4u-Esz" kind="show" id="Vaj-XW-sk5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrc-uo-JFI">
+                                <rect key="frame" x="66" y="626" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2n-Yz-D6U">
+                                <rect key="frame" x="137" y="588" width="101" height="30"/>
+                                <color key="backgroundColor" red="0.16862745098039217" green="0.33725490196078434" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonAction:" destination="lv8-Ei-OGr" eventType="touchUpInside" id="ObB-0D-ads"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="fN3-xg-SRG" appends="YES" id="Jrp-N8-lLW"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="enterEmail" destination="IDI-eq-L8m" id="pPb-yf-paF"/>
+                        <outlet property="enterPassword" destination="yT9-ah-GHB" id="0rE-kv-PZk"/>
+                        <segue destination="sk5-pO-Fw0" kind="show" identifier="LoginViewControllerShowMainSegue" id="CDN-Fk-LGc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pJD-DA-TzV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fN3-xg-SRG">
+                    <connections>
+                        <action selector="didTapBG:" destination="lv8-Ei-OGr" id="CMv-Ku-MiJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="622.5" y="316.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xTh-du-ALU">
+            <objects>
+                <navigationController id="sk5-pO-Fw0" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fRw-HS-7cr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Z3V-1k-whP" kind="relationship" relationship="rootViewController" id="UN1-nT-uDl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yIQ-FA-Kq7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622.5" y="1122.5"/>
+        </scene>
+        <!--Projects-->
+        <scene sceneID="v0Z-Vf-z0P">
+            <objects>
+                <viewController id="Z3V-1k-whP" customClass="ProjectsViewController" customModule="EMUHackathonAPIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XzP-TU-pkT"/>
+                        <viewControllerLayoutGuide type="bottom" id="57c-dN-Hdg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qbS-vU-8U7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dQF-Ug-xLC">
+                                <rect key="frame" x="4" y="72" width="367" height="29"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="Beginner"/>
+                                    <segment title="Intermediate"/>
+                                    <segment title="Advanced"/>
+                                </segments>
+                            </segmentedControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Foh-vU-MCg">
+                                <rect key="frame" x="0.0" y="108" width="375" height="559"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="25" minimumInteritemSpacing="10" id="B6D-GE-ajg">
+                                    <size key="itemSize" width="160" height="160"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="15" minY="15" maxX="15" maxY="15"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProjectsCollectionViewCell" id="Mzo-dm-MgQ" customClass="ProjectsCollectionViewCell" customModule="EMUHackathonAPIApp" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="15" width="160" height="160"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emuLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mcs-Kd-lIR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                                    <gestureRecognizers/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hsc-4B-jq4">
+                                                    <rect key="frame" x="0.0" y="139" width="160" height="21"/>
+                                                    <color key="backgroundColor" red="0.53057922979797989" green="0.53057922979797989" blue="0.53057922979797989" alpha="0.63" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="projectImageView" destination="mcs-Kd-lIR" id="q8i-sG-Wwi"/>
+                                            <outlet property="projectTitleLable" destination="hsc-4B-jq4" id="4Iv-s5-hbc"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Z3V-1k-whP" id="guy-FJ-DUz"/>
+                                    <outlet property="delegate" destination="Z3V-1k-whP" id="Yeu-J0-5nG"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Projects" id="f6r-6w-ZBg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="U5o-Es-8H2"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="Foh-vU-MCg" id="vta-SG-7n3"/>
+                        <outlet property="filterSegmentedControl" destination="dQF-Ug-xLC" id="qoJ-IL-gy3"/>
+                        <segue destination="HQd-ih-zh0" kind="show" identifier="ProjectsViewControllerShowDetailsSegue" id="L1w-Ne-Yjj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SEn-eF-4zx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1041.5" y="1122.5"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="i5R-Rs-9sH">
+            <objects>
+                <viewController id="HQd-ih-zh0" customClass="ProjectDetailsViewController" customModule="EMUHackathonAPIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z2w-jl-ST7"/>
+                        <viewControllerLayoutGuide type="bottom" id="PjW-43-UY1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="85L-NN-Adz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X7H-Wr-VmF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="292"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNw-sX-nfk">
+                                <rect key="frame" x="10" y="366" width="355" height="291"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dNw-sX-nfk" secondAttribute="trailing" constant="10" id="BUO-3c-WiP"/>
+                            <constraint firstItem="X7H-Wr-VmF" firstAttribute="leading" secondItem="85L-NN-Adz" secondAttribute="leading" id="FAg-a1-nWc"/>
+                            <constraint firstItem="X7H-Wr-VmF" firstAttribute="top" secondItem="Z2w-jl-ST7" secondAttribute="bottom" id="GqQ-6S-J3J"/>
+                            <constraint firstItem="PjW-43-UY1" firstAttribute="top" secondItem="dNw-sX-nfk" secondAttribute="bottom" constant="10" id="M6W-u8-M0d"/>
+                            <constraint firstAttribute="trailing" secondItem="X7H-Wr-VmF" secondAttribute="trailing" id="Wc7-t9-oiG"/>
+                            <constraint firstItem="dNw-sX-nfk" firstAttribute="leading" secondItem="85L-NN-Adz" secondAttribute="leading" constant="10" id="c6P-JK-i82"/>
+                            <constraint firstItem="dNw-sX-nfk" firstAttribute="top" secondItem="X7H-Wr-VmF" secondAttribute="bottom" constant="10" id="cvh-uZ-NK4"/>
+                            <constraint firstItem="dNw-sX-nfk" firstAttribute="height" secondItem="X7H-Wr-VmF" secondAttribute="height" id="mh0-3C-c77"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Details" id="G7u-al-flu">
+                        <barButtonItem key="rightBarButtonItem" title="Contact" id="Vx8-I8-UmD">
+                            <connections>
+                                <action selector="didTapContactButton:" destination="HQd-ih-zh0" id="YdB-np-Pmy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="X7H-Wr-VmF" id="RSg-Rr-nvP"/>
+                        <outlet property="infoTextView" destination="dNw-sX-nfk" id="FeM-qS-Hmx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OqF-y7-k4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1474.5" y="1116.5"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="jqh-fG-oCC">
+            <objects>
+                <viewController id="t80-4u-Esz" customClass="SignUpViewController" customModule="EMUHackathonAPIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fM0-E8-Y5G"/>
+                        <viewControllerLayoutGuide type="bottom" id="C5K-Ur-VZh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h0b-gD-5ia">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="LwK-fX-vwJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Uac-NQ-iiM">
+                                <rect key="frame" x="20" y="490" width="340" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IQQ-V7-bME">
+                                <rect key="frame" x="20" y="528" width="340" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Repeat Password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="PbC-FE-fCw">
+                                <rect key="frame" x="20" y="566" width="340" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bt-iD-U5G">
+                                <rect key="frame" x="259" y="604" width="101" height="30"/>
+                                <color key="backgroundColor" red="0.16862745100000001" green="0.33725490200000002" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Sign Up!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpButtonAction:" destination="t80-4u-Esz" eventType="touchUpInside" id="vVX-UI-Sz5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXi-1E-Bzu">
+                                <rect key="frame" x="20" y="604" width="101" height="30"/>
+                                <color key="backgroundColor" red="0.16862745100000001" green="0.33725490200000002" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToLoginButton:" destination="t80-4u-Esz" eventType="touchUpInside" id="ok2-zF-ZyX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Uac-NQ-iiM" id="yM5-0S-BZR"/>
+                        <outlet property="passwordTextField" destination="IQQ-V7-bME" id="gzV-N3-14e"/>
+                        <outlet property="repeatTextField" destination="PbC-FE-fCw" id="cYb-MR-UUA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lVx-4E-BPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.5" y="316.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="750" height="1334"/>
+        <image name="emuLogo" width="550" height="545"/>
+    </resources>
+</document>

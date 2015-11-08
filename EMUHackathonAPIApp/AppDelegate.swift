@@ -8,17 +8,30 @@
 
 import UIKit
 import CoreData
+import Parse
+import CRToast
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        Project.registerSubclass()
+        Difficulty.registerSubclass()
+        
+        Parse.setApplicationId("rN3jzPaWshzzJyILVpy1ITdLFNR7R2NWOdzfmcSX", clientKey: "n3zaU7XZ8Di1QtToOfFHGRTkKImM2FOHTh5HjIat")
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        CRToastManager.setDefaultOptions([kCRToastBackgroundColorKey: UIColor.redColor(),
+                                          kCRToastAnimationOutDirectionKey :CRToastAnimationDirection.Right.rawValue,
+                                          kCRToastAnimationInDirectionKey : CRToastAnimationDirection.Left.rawValue,
+                                          kCRToastAnimationInTypeKey: CRToastAnimationType.Gravity.rawValue])
+        
         return true
-    }
+    } 
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
