@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             if Error == nil{
                 NSLog("about to show mainVC")
                 self.performSegueWithIdentifier("LoginViewControllerShowMainSegue", sender: self)
-                
+
             }
             else{
                 
@@ -45,6 +45,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
     }
     

@@ -7,11 +7,42 @@
 //
 
 import UIKit
+import Parse
 
 class ProjectsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet var collectionView: UICollectionView!
     @IBOutlet var filterSegmentedControl: UISegmentedControl!
+    
+    @IBAction func filterSegmentedControlChanged(sender: UISegmentedControl) {
+//        switch (filterSegmentedControl.selectedSegmentIndex){
+//        case 0: break
+//        case 1:
+//            
+//            let query = PFQuery(className:"Difficulty")
+//        query.getObjectInBackgroundWithId("byiyz5a8nm") {
+//            (difficulty: PFObject?, error: NSError?) -> Void in
+//            if error == nil && difficulty != nil {
+//                let query = PFQuery(className: "Project")
+//                query.whereKey("difficulty", equalTo: difficulty!)
+//                query.findObjectsInBackgroundWithBlock {
+//                    (searchResults: [PFObject]?, error: NSError?) -> Void in
+//                    var projectArray: [Project] =  [searchResults] as! NSArray
+//                }
+//                
+//            }else {
+//                print(error)
+//            }
+//        }
+//            
+//             break
+//        case 2: break
+//        case 3: break
+//        default: break
+//        }
+        
+    }
+
     
     var projects: [Project]?
     let showDetailSegueIdentifier = "ProjectsViewControllerShowDetailsSegue"

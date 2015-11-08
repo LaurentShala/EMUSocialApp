@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+import CRToast
 
 class SignUpViewController: UIViewController {
 
@@ -39,6 +40,7 @@ class SignUpViewController: UIViewController {
         user.signUpInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             if error == nil {
                 NSLog("Hooray! Let them use the app now.")
+                
             } else {
                 NSLog("Error signing up: %@", error!)
             }
@@ -48,6 +50,7 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
