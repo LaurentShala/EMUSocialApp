@@ -1,0 +1,301 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProjectFetchResultsBlock"
+- "Project"
+provides-nominal:
+- "C18EMUHackathonAPIApp7Project"
+provides-member:
+- ["C18EMUHackathonAPIApp7Project", ""]
+provides-dynamic-lookup:
+- "coverImage"
+- "parseClassName"
+- "difficulty"
+- "owner"
+- "info"
+- "title"
+- "findAllProjectsWithBlock"
+depends-top-level:
+- "String"
+- "PFObject"
+- !private "!="
+- !private "StringLiteralType"
+- "PFUser"
+- "ProjectFetchResultsBlock"
+- "Project"
+- "Difficulty"
+- "NSError"
+- "PFFile"
+- "PFSubclassing"
+- "Void"
+depends-member:
+- ["PSs9AnyObject", "coverImage"]
+- ["PSs9AnyObject", "difficulty"]
+- ["PSs9AnyObject", "findAllProjectsWithBlock"]
+- !private ["PSs9AnyObject", "findObjectsInBackgroundWithBlock"]
+- !private ["PSs9AnyObject", "includeKey"]
+- ["PSs9AnyObject", "info"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "object"]
+- ["PSs9AnyObject", "objectWithoutDataWithObjectId"]
+- !private ["PSs9AnyObject", "orderByDescending"]
+- ["PSs9AnyObject", "owner"]
+- ["PSs9AnyObject", "parseClassName"]
+- ["PSs9AnyObject", "query"]
+- ["PSs9AnyObject", "queryWithPredicate"]
+- ["PSs9AnyObject", "registerSubclass"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["PSs11CVarArgType", "coverImage"]
+- ["PSs11CVarArgType", "difficulty"]
+- ["PSs11CVarArgType", "findAllProjectsWithBlock"]
+- !private ["PSs11CVarArgType", "findObjectsInBackgroundWithBlock"]
+- !private ["PSs11CVarArgType", "includeKey"]
+- ["PSs11CVarArgType", "info"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "object"]
+- ["PSs11CVarArgType", "objectWithoutDataWithObjectId"]
+- !private ["PSs11CVarArgType", "orderByDescending"]
+- ["PSs11CVarArgType", "owner"]
+- ["PSs11CVarArgType", "parseClassName"]
+- ["PSs11CVarArgType", "query"]
+- ["PSs11CVarArgType", "queryWithPredicate"]
+- ["PSs11CVarArgType", "registerSubclass"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "coverImage"]
+- ["PSs23CustomStringConvertible", "difficulty"]
+- ["PSs23CustomStringConvertible", "findAllProjectsWithBlock"]
+- !private ["PSs23CustomStringConvertible", "findObjectsInBackgroundWithBlock"]
+- !private ["PSs23CustomStringConvertible", "includeKey"]
+- ["PSs23CustomStringConvertible", "info"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "object"]
+- ["PSs23CustomStringConvertible", "objectWithoutDataWithObjectId"]
+- !private ["PSs23CustomStringConvertible", "orderByDescending"]
+- ["PSs23CustomStringConvertible", "owner"]
+- ["PSs23CustomStringConvertible", "parseClassName"]
+- ["PSs23CustomStringConvertible", "query"]
+- ["PSs23CustomStringConvertible", "queryWithPredicate"]
+- ["PSs23CustomStringConvertible", "registerSubclass"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "coverImage"]
+- ["PSs9Equatable", "difficulty"]
+- ["PSs9Equatable", "findAllProjectsWithBlock"]
+- !private ["PSs9Equatable", "findObjectsInBackgroundWithBlock"]
+- !private ["PSs9Equatable", "includeKey"]
+- ["PSs9Equatable", "info"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "object"]
+- ["PSs9Equatable", "objectWithoutDataWithObjectId"]
+- !private ["PSs9Equatable", "orderByDescending"]
+- ["PSs9Equatable", "owner"]
+- ["PSs9Equatable", "parseClassName"]
+- ["PSs9Equatable", "query"]
+- ["PSs9Equatable", "queryWithPredicate"]
+- ["PSs9Equatable", "registerSubclass"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "coverImage"]
+- ["PSs8Hashable", "difficulty"]
+- ["PSs8Hashable", "findAllProjectsWithBlock"]
+- !private ["PSs8Hashable", "findObjectsInBackgroundWithBlock"]
+- !private ["PSs8Hashable", "includeKey"]
+- ["PSs8Hashable", "info"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "object"]
+- ["PSs8Hashable", "objectWithoutDataWithObjectId"]
+- !private ["PSs8Hashable", "orderByDescending"]
+- ["PSs8Hashable", "owner"]
+- ["PSs8Hashable", "parseClassName"]
+- ["PSs8Hashable", "query"]
+- ["PSs8Hashable", "queryWithPredicate"]
+- ["PSs8Hashable", "registerSubclass"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- !private ["PSo9NSCopying", "findObjectsInBackgroundWithBlock"]
+- !private ["PSo9NSCopying", "includeKey"]
+- !private ["PSo9NSCopying", "orderByDescending"]
+- ["CSo8NSObject", "Difficulty"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "PFFile"]
+- !private ["CSo8NSObject", "PFObject"]
+- ["CSo8NSObject", "PFUser"]
+- !private ["CSo8NSObject", "Project"]
+- ["CSo8NSObject", "ProjectFetchResultsBlock"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "coverImage"]
+- ["CSo8NSObject", "difficulty"]
+- ["CSo8NSObject", "findAllProjectsWithBlock"]
+- !private ["CSo8NSObject", "findObjectsInBackgroundWithBlock"]
+- !private ["CSo8NSObject", "includeKey"]
+- ["CSo8NSObject", "info"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "object"]
+- ["CSo8NSObject", "objectWithoutDataWithObjectId"]
+- !private ["CSo8NSObject", "orderByDescending"]
+- ["CSo8NSObject", "owner"]
+- ["CSo8NSObject", "parseClassName"]
+- ["CSo8NSObject", "query"]
+- ["CSo8NSObject", "queryWithPredicate"]
+- ["CSo8NSObject", "registerSubclass"]
+- ["CSo8NSObject", "title"]
+- ["PSo16NSObjectProtocol", "coverImage"]
+- ["PSo16NSObjectProtocol", "difficulty"]
+- ["PSo16NSObjectProtocol", "findAllProjectsWithBlock"]
+- !private ["PSo16NSObjectProtocol", "findObjectsInBackgroundWithBlock"]
+- !private ["PSo16NSObjectProtocol", "includeKey"]
+- ["PSo16NSObjectProtocol", "info"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "object"]
+- ["PSo16NSObjectProtocol", "objectWithoutDataWithObjectId"]
+- !private ["PSo16NSObjectProtocol", "orderByDescending"]
+- ["PSo16NSObjectProtocol", "owner"]
+- ["PSo16NSObjectProtocol", "parseClassName"]
+- ["PSo16NSObjectProtocol", "query"]
+- ["PSo16NSObjectProtocol", "queryWithPredicate"]
+- ["PSo16NSObjectProtocol", "registerSubclass"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["CSo8PFObject", "Difficulty"]
+- !private ["CSo8PFObject", "NSError"]
+- ["CSo8PFObject", "PFFile"]
+- !private ["CSo8PFObject", "PFObject"]
+- ["CSo8PFObject", "PFUser"]
+- !private ["CSo8PFObject", "Project"]
+- ["CSo8PFObject", "ProjectFetchResultsBlock"]
+- ["CSo8PFObject", "String"]
+- !private ["CSo8PFObject", "Void"]
+- ["CSo8PFObject", "coverImage"]
+- ["CSo8PFObject", "difficulty"]
+- ["CSo8PFObject", "findAllProjectsWithBlock"]
+- ["CSo8PFObject", "info"]
+- ["CSo8PFObject", "init"]
+- ["CSo8PFObject", "object"]
+- ["CSo8PFObject", "objectWithoutDataWithObjectId"]
+- ["CSo8PFObject", "owner"]
+- ["CSo8PFObject", "parseClassName"]
+- ["CSo8PFObject", "query"]
+- ["CSo8PFObject", "queryWithPredicate"]
+- ["CSo8PFObject", "registerSubclass"]
+- ["CSo8PFObject", "title"]
+- ["CSo8PFObject", ""]
+- !private ["CSo7PFQuery", "findObjectsInBackgroundWithBlock"]
+- !private ["CSo7PFQuery", "includeKey"]
+- !private ["CSo7PFQuery", "orderByDescending"]
+- ["PSo13PFSubclassing", "object"]
+- ["PSo13PFSubclassing", "objectWithoutDataWithObjectId"]
+- ["PSo13PFSubclassing", "parseClassName"]
+- ["PSo13PFSubclassing", "query"]
+- ["PSo13PFSubclassing", "queryWithPredicate"]
+- ["PSo13PFSubclassing", "registerSubclass"]
+- ["PSo13PFSubclassing", ""]
+- ["C18EMUHackathonAPIApp7Project", "Difficulty"]
+- !private ["C18EMUHackathonAPIApp7Project", "NSError"]
+- ["C18EMUHackathonAPIApp7Project", "PFFile"]
+- !private ["C18EMUHackathonAPIApp7Project", "PFObject"]
+- ["C18EMUHackathonAPIApp7Project", "PFUser"]
+- !private ["C18EMUHackathonAPIApp7Project", "Project"]
+- ["C18EMUHackathonAPIApp7Project", "ProjectFetchResultsBlock"]
+- ["C18EMUHackathonAPIApp7Project", "String"]
+- !private ["C18EMUHackathonAPIApp7Project", "Void"]
+- ["C18EMUHackathonAPIApp7Project", "coverImage"]
+- ["C18EMUHackathonAPIApp7Project", "deinit"]
+- ["C18EMUHackathonAPIApp7Project", "difficulty"]
+- ["C18EMUHackathonAPIApp7Project", "findAllProjectsWithBlock"]
+- ["C18EMUHackathonAPIApp7Project", "info"]
+- ["C18EMUHackathonAPIApp7Project", "init"]
+- ["C18EMUHackathonAPIApp7Project", "object"]
+- ["C18EMUHackathonAPIApp7Project", "objectWithoutDataWithObjectId"]
+- ["C18EMUHackathonAPIApp7Project", "owner"]
+- ["C18EMUHackathonAPIApp7Project", "parseClassName"]
+- ["C18EMUHackathonAPIApp7Project", "query"]
+- ["C18EMUHackathonAPIApp7Project", "queryWithPredicate"]
+- ["C18EMUHackathonAPIApp7Project", "registerSubclass"]
+- ["C18EMUHackathonAPIApp7Project", "title"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "CSo8PFObject"
+- !private "CSo7PFQuery"
+- "PSo13PFSubclassing"
+- "C18EMUHackathonAPIApp7Project"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFDefines.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFPurchase.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFProduct.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFPush.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFInstallation.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFSession.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFRole.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFRelation.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFQuery.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFFile.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFConfig.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFCloud.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFObject.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFUser.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFConstants.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFNullability.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/PFACL.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/CRToast.framework/Headers/CRToastManager.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/CRToast.framework/Headers/CRToastConfig.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/CRToast.framework/Headers/CRToast.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/CRToast.framework/Headers/CRToast-umbrella.h"
+- "/Users/lshala1/Desktop/EMUHackathonAPIApp/DerivedData/EMUHackathonAPIApp/Build/Products/Debug-iphoneos/CRToast.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "41ae67e7d13d01afa794a58179ead643"

@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "fbaa3f42dfdb639191c1d6bd35eabf62"
+build_time: [500298566, 149644000]
+inputs:
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/AppDelegate.swift": [500285558, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Models/Difficulty.swift": [500288741, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Controllers/ProjectsViewController.swift": [500293019, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Views/ProjectsCollectionViewCell.swift": [500293318, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Controllers/SignUpViewController.swift": [500262248, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Models/Project.swift": [500297897, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Controllers/ViewController.swift": [500269147, 0]
+  "/Users/lshala1/Desktop/EMUHackathonAPIApp/EMUHackathonAPIApp/Controllers/ProjectDetailsViewController.swift": [500297810, 0]
