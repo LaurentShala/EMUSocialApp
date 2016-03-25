@@ -8,6 +8,7 @@
 
 import Foundation
 import Parse
+
 public typealias ProjectFetchResultsBlock = (projects: [Project]?, error: NSError?) -> Void
 
 public class Project: PFObject, PFSubclassing{

@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         Login()
     }
     
+    @IBAction func didTap(sender: UITapGestureRecognizer) {
+            self.view.endEditing(true)
+        
+    }
+    
     func Login(){
         let user = PFUser()
         user.email = enterEmail.text

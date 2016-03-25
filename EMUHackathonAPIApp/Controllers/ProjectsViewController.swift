@@ -49,12 +49,13 @@ class ProjectsViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "applicationWillEnterForeground:", name: UIApplicationWillEnterForegroundNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(UIApplicationDelegate.applicationWillEnterForeground(_:)), name: UIApplicationWillEnterForegroundNotification, object: nil)
         refreshProjects()
     }
     
     func refreshProjects(){
-        Project.findAllProjectsWithBlock { (projects, error) -> Void in
+        Project.findAllProjectsWithBlock {
+            (projects, error) -> Void in
             self.projects = projects
             self.collectionView.reloadData()
         }

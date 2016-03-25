@@ -21,6 +21,9 @@
 		23EA84951BEE998100786911 /* EMUHackathonAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */; };
 		23EA851F1BEEB36F00786911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EA851E1BEEB36F00786911 /* Main.storyboard */; };
 		8FB30F3D03FD8DAB84B904D6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852DF6108AF6C64F53B8FCFD /* Pods.framework */; };
+		F63F89A71BF572CA0058B30D /* ProjectsNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63F89A61BF572CA0058B30D /* ProjectsNavigationBarController.swift */; };
+		F6CB2D031BF2572600C7ED1E /* TextFieldEffects in Resources */ = {isa = PBXBuildFile; fileRef = F6CB2D021BF2572600C7ED1E /* TextFieldEffects */; };
+		F6CB2D051BF2C07500C7ED1E /* AwesomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CB2D041BF2C07500C7ED1E /* AwesomeTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +60,14 @@
 		23EA848B1BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EA84901BEE998100786911 /* EMUHackathonAPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMUHackathonAPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMUHackathonAPIAppUITests.swift; sourceTree = "<group>"; };
-		23EA84961BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EA84961BEE998100786911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = EMUHackathonAPIAppUITests/Info.plist; sourceTree = "<group>"; };
 		23EA851E1BEEB36F00786911 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		42840A84CDDA67EDAFE3962D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		852DF6108AF6C64F53B8FCFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCA5D2869A0A2770887277C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F63F89A61BF572CA0058B30D /* ProjectsNavigationBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsNavigationBarController.swift; sourceTree = "<group>"; };
+		F6CB2D021BF2572600C7ED1E /* TextFieldEffects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextFieldEffects; sourceTree = "<group>"; };
+		F6CB2D041BF2C07500C7ED1E /* AwesomeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		1C81AC7ED477DF43AA1C1CF6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				F6CB2D021BF2572600C7ED1E /* TextFieldEffects */,
 				42840A84CDDA67EDAFE3962D /* Pods.debug.xcconfig */,
 				ABCA5D2869A0A2770887277C /* Pods.release.xcconfig */,
 			);
@@ -133,6 +140,7 @@
 				23EA84701BEE998100786911 /* EMUHackathonAPIApp */,
 				23EA84881BEE998100786911 /* EMUHackathonAPIAppTests */,
 				23EA84931BEE998100786911 /* EMUHackathonAPIAppUITests */,
+				23EA84961BEE998100786911 /* Info.plist */,
 				23EA846F1BEE998100786911 /* Products */,
 				1C81AC7ED477DF43AA1C1CF6 /* Pods */,
 				D0CE235837D0D7128F130E61 /* Frameworks */,
@@ -152,6 +160,7 @@
 		23EA84701BEE998100786911 /* EMUHackathonAPIApp */ = {
 			isa = PBXGroup;
 			children = (
+				F6CB2D041BF2C07500C7ED1E /* AwesomeTextField.swift */,
 				23EA84711BEE998100786911 /* AppDelegate.swift */,
 				23EA851E1BEEB36F00786911 /* Main.storyboard */,
 				23EA847B1BEE998100786911 /* Assets.xcassets */,
@@ -159,6 +168,7 @@
 				231914FA1BEF530200DA75EC /* Controllers */,
 				231914FE1BEF530200DA75EC /* Models */,
 				231915011BEF530200DA75EC /* Views */,
+				F63F89A61BF572CA0058B30D /* ProjectsNavigationBarController.swift */,
 			);
 			path = EMUHackathonAPIApp;
 			sourceTree = "<group>";
@@ -176,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				23EA84941BEE998100786911 /* EMUHackathonAPIAppUITests.swift */,
-				23EA84961BEE998100786911 /* Info.plist */,
 			);
 			path = EMUHackathonAPIAppUITests;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 				TargetAttributes = {
 					23EA846D1BEE998100786911 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 56BZK6T4P5;
 					};
 					23EA84841BEE998100786911 = {
 						CreatedOnToolsVersion = 7.1;
@@ -299,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23EA847F1BEE998100786911 /* LaunchScreen.storyboard in Resources */,
+				F6CB2D031BF2572600C7ED1E /* TextFieldEffects in Resources */,
 				23EA847C1BEE998100786911 /* Assets.xcassets in Resources */,
 				23EA851F1BEEB36F00786911 /* Main.storyboard in Resources */,
 			);
@@ -380,7 +391,9 @@
 				231915051BEF530200DA75EC /* ViewController.swift in Sources */,
 				2319150C1BEF547D00DA75EC /* ProjectDetailsViewController.swift in Sources */,
 				23EA84721BEE998100786911 /* AppDelegate.swift in Sources */,
+				F6CB2D051BF2C07500C7ED1E /* AwesomeTextField.swift in Sources */,
 				231915071BEF530200DA75EC /* Project.swift in Sources */,
+				F63F89A71BF572CA0058B30D /* ProjectsNavigationBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -522,6 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -531,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -539,6 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackgroup4.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

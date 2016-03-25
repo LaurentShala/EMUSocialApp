@@ -12,6 +12,7 @@ import CRToast
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet var profileImagePicker: UIImageView!
     
     @IBOutlet var emailTextField: UITextField!
     @IBOutlet var passwordTextField: UITextField!
@@ -22,7 +23,12 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func backToLoginButton(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+//        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func didTap(sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+        
     }
     
     
@@ -46,10 +52,14 @@ class SignUpViewController: UIViewController {
             }
         }
     }
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        profileImagePicker.layer.cornerRadius = profileImagePicker.frame.size.width/2
+        profileImagePicker.clipsToBounds = true
         
 
         // Do any additional setup after loading the view.

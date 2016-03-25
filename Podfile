@@ -7,3 +7,4 @@ inhibit_all_warnings!
 
 pod 'CRToast'
 pod 'Parse'
+pod ‘SAParallaxViewControllerSwift’
